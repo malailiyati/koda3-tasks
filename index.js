@@ -51,38 +51,72 @@ tasksIrul();
  */
 
 // import your tasks here
-const triangle = require("./jawaban/no1.js");
-const countArray = require("./jawaban/no2.js");
-const triangleIsiTerbalik = require("./jawaban/no3.js");
-const processNumber = require("./jawaban/no4.js");
-const cetakTabel = require("./jawaban/no5.js");
-const buatRentang = require("./jawaban/no6.js");
+const lala = require("./tasks/lala");
+
 
 const number = [1, 2, 3, 4, 5];
 function tasksLala(){
     // Program: triangle
-    const resultTringale = triangle(5);
+    // Success
+    const resultTringale = lala.triangle(5);
     console.log(resultTringale);
 
+    //Failed
+    try {
+        const result = lala.triangle(-5);
+        console.log(result);
+    } catch (error) {
+        console.log(error.message);
+    }
+
     // Program: countArray
-    const resultCountArray = countArray(number);
+    const resultCountArray = lala.countArray(number);
     console.log(resultCountArray);
 
+
     // Program: tringaleTerbalik
-    const resultTringaleTerbalik = triangleIsiTerbalik(5);
+    // Success
+    const resultTringaleTerbalik = lala.triangleIsiTerbalik(5);
     console.log(resultTringaleTerbalik);
 
+    //Failed
+    try {
+        const result = lala.triangleIsiTerbalik(-5);
+        console.log(result);
+    } catch (error) {
+        console.log(error.message);
+    }
+
     // Program: processNumber
-    const resultProcessNumber = processNumber(number);
+    // Success
+    const resultProcessNumber = lala.processNumber(number);
     console.log(resultProcessNumber);
 
-     // Program: cetakTabel
-    const resultCetakTabel = cetakTabel(3);
+    //Failed
+    try {
+        const result = lala.processNumber([2, 4, 6]);
+        console.log(result);
+    } catch (error) {
+        console.log(error.message);
+    }
+
+    // Program: cetakTabel
+    // Success
+    const resultCetakTabel = lala.cetakTabel(3);
     console.log(resultCetakTabel);
 
+    //Failed
+    try {
+        const result = lala.cetakTabel(-3);
+        console.log(result);
+    } catch (error) {
+        console.log(error.message);
+    }
+
     // Program: buatRentang
-    const resultbuatRentang = buatRentang(5, 10);
+    const resultbuatRentang = lala.buatRentang(5, 10);
     console.log(resultbuatRentang);
+
 }
 tasksLala();
 
