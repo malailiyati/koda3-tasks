@@ -1,0 +1,7 @@
+jawaban minitask week 2 day 3 no 7
+
+a. user belum dideklarasikan di scoop tempat pemanggilan, terjadi difile app.js fungsi getUserData baris ke 15 kolom ke 10
+b. tidak bisa membaca length dari null,terjadi difile data.js fungsi processData baris ke 8 kolom 15
+c. terdapat karakter ')' yang tidak diharapkan atau tidak ada pasangan, terjadi difile script.js baris ke 5
+d. tidak bisa mengatur properti status dari variable atau object yang undefined, terjadi difile order.js fungsi updateOrder baris 18 kolom 12
+e. fungsi dipanggil terus tanpa ada konsisi berhenti sehingga kehabisan ruang di call stack, terjadi difile app.js fungsi recursiveFunction baaris ke 10 kolom 3
