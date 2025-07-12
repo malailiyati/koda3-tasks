@@ -4,7 +4,7 @@ function buatRentang(mulai, selesai) {
     output += i;
     if (i < selesai) output += ",";
   }
-  console.log(output);
+  return output;
 }
 
 module.exports = buatRentang;
