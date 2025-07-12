@@ -92,14 +92,6 @@ function tasksLala(){
     const resultProcessNumber = lala.processNumber(number);
     console.log(resultProcessNumber);
 
-    //Failed
-    try {
-        const result = lala.processNumber([2, 4, 6]);
-        console.log(result);
-    } catch (error) {
-        console.log(error.message);
-    }
-
     // Program: cetakTabel
     // Success
     const resultCetakTabel = lala.cetakTabel(3);
