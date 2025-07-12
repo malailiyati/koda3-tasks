@@ -7,4 +7,5 @@ function buatRentang(mulai, selesai) {
   return output;
 }
 
+
 module.exports = buatRentang;
