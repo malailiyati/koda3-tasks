@@ -6,4 +6,5 @@ function countArray(arr) {
   return sum;
 }
 
+
 module.exports = countArray;
