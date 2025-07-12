@@ -1,5 +1,4 @@
-const numbers = [1, 2, 3, 4, 5];
-function proccesNumber(arr) {
+function procesNumber(arr) {
   let sum = 1;
 
   for (let i = 0; i < arr.length; i++) {
@@ -7,7 +6,7 @@ function proccesNumber(arr) {
       sum *= arr[i];
     }
   }
-  console.log(sum);
+  return sum;
 }
 
-module.exports = proccesNumber;
+module.exports = procesNumber;
