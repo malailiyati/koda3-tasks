@@ -14,4 +14,5 @@ function triangleIsiTerbalik(num) {
   }
 }
 
+
 module.exports = triangleIsiTerbalik;
